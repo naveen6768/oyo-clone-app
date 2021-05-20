@@ -5,7 +5,7 @@ import CompanyLogo from './CompanyLogo/CompanyLogo'
 import BecomeMember from './BecomeMember/BecomeMember'
 import RegisterButton from './RegisterButton/RegisterButton'
 import LanguageSelection from './LanguageSelection/LanguageSelection';
-
+import CitiesDropdown from '../CitiesDropdown/CitiesDropdown'
 
 const NavBar = () => {
     return (
@@ -14,6 +14,7 @@ const NavBar = () => {
             <BecomeMember />
             <LanguageSelection/>
             <RegisterButton />
+            <CitiesDropdown/>
         </div>
     )
 }
