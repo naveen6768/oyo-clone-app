@@ -1,0 +1,25 @@
+.language_container{
+    position: absolute;
+    display: inline-block;
+    right: 205px;
+    padding-right: 25px;
+}
+
+.language_selection{
+    padding: 22px;
+    padding-right: none;
+    border: none;
+    border-left: 1px #e9e7e7 solid ;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.language_container:hover,
+.language_selection:hover{
+    background-color:#eeecec;
+}
+
+.language_selection:focus-visible{
+    outline: none;
+}
