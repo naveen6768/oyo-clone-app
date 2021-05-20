@@ -1,0 +1,35 @@
+.become_Member {
+    position:absolute;
+    top: 10px;
+    right: 350px;
+    display: inline-block;
+    border: 0.5px solid #e9e7e7;
+    border-radius: 3px;
+    padding: 8px 8px 6px 8px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.become_Member__image{
+    display: inline-block;
+    height: 33px;
+    margin-right:7px ;
+  
+}
+
+.become_Member__title{
+    position: absolute;
+    margin: 0;
+    display: inline-block;
+    color: #7a7979;
+    font-weight: 600;
+    font-size: 15px;
+}
+.become_Member__subtitle{
+    display: inline-block;
+    margin: 0px;
+    color: #979595;
+    font-weight: 400;
+    font-size: 12px;
+
+}
